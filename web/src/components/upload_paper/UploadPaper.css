@@ -1,0 +1,19 @@
+.step-outer-container {
+  /* background-color: red; */
+  border: 1px solid rgb(207, 207, 207);
+  padding: 45px;
+  margin:auto;
+  width: 58%;
+  border-radius: 10px;
+}
+.steps-action-button-button {
+  text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .step-outer-container {
+    width: 90%;
+    padding: 25px;
+  }
+}
+

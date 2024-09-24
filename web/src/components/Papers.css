@@ -1,0 +1,167 @@
+.papers-outer-div{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    /* padding: 20px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    margin-bottom: 40px;
+
+}
+
+
+.summary-row {
+    padding-left: 20%;
+    font-size: 16px;
+}
+
+#contact-button {
+    margin-left: 63%;
+}
+
+.profile-menu {
+    width: 90%;
+    margin: auto;
+    padding-left: 15%;
+}
+.profile-menu-item{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.profile-main-outer-div{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    /*margin-top: -50px;*/
+
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    /* padding: 20px; */
+    /*padding-top: 40px;*/
+    /*padding-bottom: 40px;*/
+
+    /*margin-bottom: 40px;*/
+
+}
+.papers-inner-div{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+
+}
+.papers-inner-div-1{
+    /* background-color: red; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.papers-inner-left-div{
+    flex:1
+}
+.papers-inner-right-div{
+    flex:1;
+    width: 100%;
+    
+
+}
+.papers-outer-div a{
+    color :#237aaa;
+}
+.papers-outer-div a:hover{
+    text-decoration :underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .papers-outer-div{
+        width: 90%;    
+        padding-top: 20px;
+
+    }
+  }
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+    width: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    .papers-inner-div-1 {
+        /* background-color: red; */
+        flex-direction: column;
+
+    }
+}
+
+.ant-table-header-column {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search-result-title {
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 0;
+    /* color: red !important; */
+}
+
+.search-result-title a {
+    color: #1857b6;
+}
+
+.search-result-author {
+    color: #8c9296;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.search-result-date {
+    font-size: 14px;
+}
+
+.search-result-abstract {
+    font-size: 14px;
+    margin: 7px;
+    margin-left: 0;
+}
+
+.search-result-citation {
+    color: #dd913f;
+    padding-right: 20px;
+}
+
+.search-result-citation-icon {
+    fill: none;
+    stroke: #dd913f;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.search-result-journal-name {
+    font-size: 14px;
+    /*text-decoration: underline;*/
+    /*margin-top: 8px;*/
+    /*margin-bottom: 8px;*/
+    color: #8c9296;
+}

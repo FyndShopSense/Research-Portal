@@ -1,0 +1,38 @@
+.profile-left {
+  width: 20%;
+  float: left;
+  padding-bottom: 30px;
+}
+.profile-right {
+  width: 80%;
+  /* background-color: rgb(207, 207, 207); */
+  height: 100vh;
+  float: left;
+}
+.profile-outer-div {
+  width: 70%;
+  margin: 0px auto 10px;
+  padding-top: 90px;
+}
+.horizontal-menu{
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .profile-outer-div {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 750px) {
+    .horizontal-menu{
+        display: block;
+    }
+    .vertical-menu{
+        display: none;
+    }
+  .profile-left {
+    width: 100%;
+  }
+  .profile-right {
+    width: 100%;
+  }
+}

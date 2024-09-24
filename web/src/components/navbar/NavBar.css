@@ -1,0 +1,116 @@
+.nav-bar {
+  /* background-color: blue; */
+  height: 60px;
+  /* line-height: 60px; */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  background-color: rgb(255, 255, 255);
+
+  user-select: none;
+}
+.navbar-outer-div {
+  position: fixed;
+  /* position: absolute; */
+  /* position:relative; */
+  z-index: 10;
+  width: 100%;
+  /* background-color: yellow; */
+}
+.nav-bar-logo {
+  display: flex;
+  align-items: center;
+
+  /* margin-top: 10px; */
+  /* position: relative; */
+}
+.logo-text {
+  color: #788b9c;
+}
+.nav-bar-logo:hover {
+  cursor: pointer;
+  /* margin-top: 10px; */
+  /* position: relative; */
+}
+.nav-bar-logo svg {
+  margin: 12px;
+  margin-left: 30px;
+  /* float: left; */
+}
+.nav-bar-logo .logo-text {
+  /* float: left; */
+  /* margin: 15px; */
+}
+nav .navbar-right-element {
+  float: right;
+  color: #237aaa;
+  font-size: 13px;
+  margin-right: 20px;
+  /* vertical-align: middle; */
+}
+nav .nav-sign-up span {
+  border: 1px solid #237aaa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.home-menu-icon {
+  font-size: 20px;
+  margin: 20px;
+  display: none !important;
+}
+.second-nav {
+  height: 0;
+  /* height: 100px; */
+  overflow: hidden;
+  /* display: none; */
+  /* height: 60px; */
+  /* line-height: 60px; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+
+  -webkit-box-shadow: 0px 6px 10px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 10px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 10px -7px rgba(0, 0, 0, 0.75);
+  /* height: 100vh; */
+  /* height: calc(100vh - 100px); */
+  /* border-bottom: 1px solid rgb(235, 235, 235); */
+
+  user-select: none;
+  transition: height 0.2s ease-in;
+}
+/* .second-nav-open-style {
+  max-height: 100vh;
+} */
+.second-nav-background {
+}
+.second-nav div {
+  color: black;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100vw;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  /* padding: 10px; */
+  line-height: 45px;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 450px) {
+  .home-menu-icon {
+    display: inline !important;
+  }
+  .navbar-right-content {
+    display: none;
+  }
+  .nav-bar-logo svg {
+    margin: 12px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .second-nav {
+    display: none !important;
+  }
+}
