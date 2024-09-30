@@ -45,5 +45,5 @@ def login_user():
                 return jsonify(details), 200
             else:
                 return 'Invalid Credentials', 401
-        except:
+        except Exception:
             return 'Invalid Credentials', 401
